@@ -4,7 +4,7 @@ import SectionRight from "../components/SectionRight"
 // markup
 const IndexPage = () => {
   return (
-    <div className="flex bg-primary-blue w-screen h-screen justify-between">
+    <div className="flex flex-col md:flex-row bg-primary-blue w-screen h-screen justify-between">
       <SectionLeft/>
       <SectionRight/>
     </div>

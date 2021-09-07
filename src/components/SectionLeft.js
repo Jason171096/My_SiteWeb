@@ -4,7 +4,7 @@ import Info from "./Info"
 
 const SectionLeft = () => {
     return (
-        <div className="flex w-[1000px] h-screen">
+        <div className="flex w-[500px] lg:w-[1000px] h-screen">
             <GradientBar/>
             <Info/>            
         </div>
