@@ -4,7 +4,7 @@ import myPhoto from "../images/my_photo.jpg";
 const SobreMi = () => {
   return (
     <div className="flex mx-auto mb-10 relative w-screen h-full max-w-screen-lg overflow-x-auto scrollbar-w-2 scrollbar-thumb-gray-400">
-      <div className="flex mx-5 w-screen h-[750px] border-2 border-redKing rounded-xl lg:h-full">
+      <div className="flex mx-5 w-screen h-[750px] bg-redKing border border-yellow-900 rounded-xl lg:h-full">
         <div className="flex flex-col w-full h-full text-white text-lg sm:text-2xl">
           <div className="flex flex-col items-center lg:flex-row">
             <div className="m-2 w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] lg:mx-10">

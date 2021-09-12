@@ -19,7 +19,8 @@ module.exports = {
       yellow: colors.amber,
       pink: colors.pink,
       blueKing: '#335185',
-      redKing: '#E53A4B'
+      redKing: '#E53A4B',
+      yellowKing: '#F5DB69'
     },
     backgroundColor: theme => ({
       ...theme('colors'),

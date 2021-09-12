@@ -1,5 +1,4 @@
 import React from "react"
-import SectionBottom from "../components/SectionBottom"
 import SectionTop from "../components/SectionTop"
 import SobreMi from "../components/SobreMi"
 
