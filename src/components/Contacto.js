@@ -13,7 +13,7 @@ const Contacto = () => {
         <div className="hidden md:block max-w-xl">
             <img src={messageImg}/>
         </div>
-      <div className="flex flex-col w-full h-full bg-redKing rounded-lg mx-5 max-w-sm">
+      <div className="flex flex-col w-full h-[500px] bg-redKing rounded-lg mx-5 max-w-sm">
         <picture className="flex flex-row ml-auto mr-5 justify-items-end my-5">
           <a href="https://www.instagram.com/yeison_mm17" target="_blank">
             <img className={styleIco} src={instaIco} />
