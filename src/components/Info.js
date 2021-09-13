@@ -1,4 +1,6 @@
 import React from "react";
+import { Link } from 'gatsby'
+
 
 const Info = () => {
   return (
@@ -8,7 +10,7 @@ const Info = () => {
         <h2 className="text-4xl lg:text-5xl font-bold">Jason Martinez</h2>
         <p className="text-xl lg:text-2xl">Frontend Developer y Web Designer</p>
         <br/>
-        <a className="bg-redKing px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-500">Ver más</a>
+        <Link to="/sobre-mi" className="bg-redKing px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-500">Ver más</Link>
       </div>
     </div>
   );

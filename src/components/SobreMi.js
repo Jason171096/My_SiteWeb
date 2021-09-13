@@ -7,7 +7,7 @@ const SobreMi = () => {
       <div className="flex mx-5 w-screen h-[750px] bg-redKing border border-yellow-900 rounded-xl lg:h-full">
         <div className="flex flex-col w-full h-full text-white text-lg sm:text-2xl">
           <div className="flex flex-col items-center lg:flex-row">
-            <div className="m-2 w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] lg:mx-10">
+            <div className="m-2 w-[150px] h-[150px] sm:w-[250px] sm:h-[250px] lg:mx-10 border-2 border-black rounded-xl">
               <img className="rounded-xl" src={myPhoto} />
             </div>
             <div className="m-2 text-center max-w-screen-sm">

@@ -3,22 +3,30 @@ import instaIco from "../images/instagram.svg";
 import gitIco from "../images/github.svg";
 import linkeIco from "../images/linkedin.svg";
 import codepenIco from "../images/codepen.svg";
-import startSticker from '../images/start-up.svg';
+import messageImg from '../images/message.svg';
 
 const Contacto = () => {
-  const sizeIco = "w-[25px] mx-1";
+  const styleIco = "w-[25px] mx-1 cursor-pointer tranform hover:scale-110";
   const styleInput = "text-black text-lg outline-none resize-none rounded-lg py-3 px-2";
   return (
-    <div className="flex relative mx-auto w-full h-4/6 text-center text-xl text-white justify-center">
+    <div className="flex relative mx-auto w-full h-4/6 text-center text-xl text-white justify-center space-x-[100px]">
         <div className="hidden md:block max-w-xl">
-            <img src={startSticker}/>
+            <img src={messageImg}/>
         </div>
       <div className="flex flex-col w-full h-full bg-redKing rounded-lg mx-5 max-w-sm">
         <picture className="flex flex-row ml-auto mr-5 justify-items-end my-5">
-          <img className={sizeIco} src={instaIco} />
-          <img className={sizeIco} src={gitIco} />
-          <img className={sizeIco} src={linkeIco} />
-          <img className={sizeIco} src={codepenIco} />
+          <a href="https://www.instagram.com/yeison_mm17" target="_blank">
+            <img className={styleIco} src={instaIco} />
+          </a>
+          <a href="https://github.com/Jason171096" target="_blank">
+            <img className={styleIco} src={gitIco} />
+          </a>
+          <a href="https://www.linkedin.com/in/jm-jason-martinez" target="_blank">
+            <img className={styleIco} src={linkeIco} />
+          </a>
+          <a href="https://codepen.io/jason171096" target="_blank">
+            <img className={styleIco} src={codepenIco} />
+          </a>
         </picture>
         <div className="flex flex-col mx-3 my-5">
           <form className="flex flex-col py-2 mx-8 space-y-8 justify-center">
