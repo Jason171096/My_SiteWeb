@@ -10,7 +10,7 @@ const Info = () => {
         <h2 className="text-4xl lg:text-5xl font-bold">Jason Martinez</h2>
         <p className="text-xl lg:text-2xl">Frontend Developer y Web Designer</p>
         <br/>
-        <Link to="/sobre-mi" className="bg-redKing px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-500">Ver más</Link>
+        <Link to="/sobre-mi" className="bg-redKing px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-600 transition delay-100">Ver más</Link>
       </div>
     </div>
   );

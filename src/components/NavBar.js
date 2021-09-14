@@ -3,7 +3,7 @@ import menu from '../images/menu.svg';
 import { Link } from 'gatsby'
 
 const NavBar = () => {
-    const styleLi = "inline cursor-pointer hover:text-red-500";
+    const styleLi = "inline cursor-pointer hover:text-redKing transition delay-75";
     return (
         <div className="relative ml-auto pr-5 py-10 text-white font-bold text-2xl lg:text-3xl lg:pr-5  ">
             <ul className="hidden sm:block m-0 p-0 space-x-10 xl:space-x-24">

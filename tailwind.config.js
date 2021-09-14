@@ -26,6 +26,9 @@ module.exports = {
       ...theme('colors'),
       'primary-blue': '#335185',
      }),
+     cursor: {
+      image: 'url(/src/images/cursor.svg)'
+     },
     extend: {},
   },
   variants: {
