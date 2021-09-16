@@ -3,8 +3,8 @@ import WebProjectsImg from "../images/user-interface1.svg";
 import MovilProjectsImg from "../images/user-interface2.svg";
 
 const Proyectos = () => {
-    const card = "flex flex-row w-[250px] h-[125px] bg-redKing justify-evenly items-center rounded-lg border border-yellow-900 shadow-2xl cursor-pointer  sm:w-[450px] sm:h-[225px] transform hover:scale-105"
-    const sizeImg = "w-[75px] sm:w-[125px]";
+    const card = "flex flex-row w-[250px] h-[125px] bg-gradient-to-tr from-blueMap to-violetMap justify-evenly items-center rounded-lg shadow-2xl cursor-pointer  sm:w-[450px] sm:h-[225px] transform hover:scale-105 transition delay-100"
+    const sizeImg = "w-[100px] sm:w-[200px]";
   return (
     <div className="flex relative flex-col w-screen h-full justify-evenly items-center text-center text-white text-3xl sm:text-5xl">
       <div className={card}>

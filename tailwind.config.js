@@ -20,15 +20,15 @@ module.exports = {
       pink: colors.pink,
       blueKing: '#335185',
       redKing: '#E53A4B',
-      yellowKing: '#F5DB69'
+      yellowKing: '#F5DB69',
+      blueMap: '#4158D0',
+      violetMap: '#C850C0',
+      yellowMap: '#FFCC70'
     },
     backgroundColor: theme => ({
       ...theme('colors'),
       'primary-blue': '#335185',
      }),
-     cursor: {
-      image: 'url(/src/images/cursor.svg)'
-     },
     extend: {},
   },
   variants: {

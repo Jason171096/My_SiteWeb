@@ -13,7 +13,7 @@ const Contacto = () => {
         <div className="hidden md:block max-w-xl">
             <img src={messageImg}/>
         </div>
-      <div className="flex flex-col w-full h-[500px] bg-redKing rounded-lg mx-5 max-w-sm">
+      <div className="flex flex-col w-full h-[500px] bg-gradient-to-tr from-blueMap to-violetMap rounded-lg mx-5 max-w-sm">
         <picture className="flex flex-row ml-auto mr-5 justify-items-end my-5">
           <a href="https://www.instagram.com/yeison_mm17" target="_blank">
             <img className={styleIco} src={instaIco} />
@@ -33,7 +33,7 @@ const Contacto = () => {
             <input className={styleInput} placeholder="Nombre" />
             <input className={styleInput} placeholder="E-mail" />
             <textarea className={styleInput} placeholder="Mensaje"></textarea>
-            <a className="bg-yellowKing text-black px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-yellow-500">Enviar</a>
+            <a className="bg-redKing px-0 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-600">Enviar</a>
           </form>
         </div>
       </div>
