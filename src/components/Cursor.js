@@ -21,12 +21,12 @@ const Cursor = () => {
        setPosition({x: e.clientX, y: e.clientY});
    };
 
-   const styleCursor = `w-2 h-2 left-[${position.x}px] top-[${position.y}px] fixed z-[9999]`
+   const styleCursor = "";
     return (
         <div className={styleCursor}>
             <img src={cursorIco}/>
         </div>
-    )
+    );
 }
 
 export default Cursor

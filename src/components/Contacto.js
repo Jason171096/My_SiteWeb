@@ -10,7 +10,7 @@ const Contacto = () => {
   const styleInput = "text-black text-lg outline-none resize-none rounded-lg py-3 px-2";
   return (
     <div className="flex relative mx-auto w-full h-4/6 text-center text-xl text-white justify-center space-x-[100px]">
-        <div className="hidden md:block max-w-xl">
+        <div className="hidden md:block max-w-sm">
             <img src={messageImg}/>
         </div>
       <div className="flex flex-col w-full h-[500px] bg-gradient-to-tr from-blueMap to-violetMap rounded-lg mx-5 max-w-sm">
@@ -33,7 +33,7 @@ const Contacto = () => {
             <input className={styleInput} placeholder="Nombre" />
             <input className={styleInput} placeholder="E-mail" />
             <textarea className={styleInput} placeholder="Mensaje"></textarea>
-            <a className="bg-redKing px-0 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-600">Enviar</a>
+            <a className="bg-yellowMap px-0 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-blue-700">Enviar</a>
           </form>
         </div>
       </div>

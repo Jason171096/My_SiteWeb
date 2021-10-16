@@ -6,7 +6,7 @@ import Cursor from "../components/Cursor";
 const IndexPage = () => {
   return (
     <>
-      <div className="flex flex-col bg-primary-blue w-screen h-screen cursor-image">
+      <div className="flex flex-col bg-primary-blue w-full h-screen">
         <SectionTop />
         <SectionBottom />
       </div>
