@@ -1,5 +1,6 @@
-import React, {useState, useEffect} from "react";
-import cursorIco from "../images/cursor.svg"; 
+import React from 'react';
+import {useState, useEffect} from "react";
+import cursorIco from "@icons/cursor.svg"; 
 
 const Cursor = () => {
     const [position, setPosition] = useState({x: 0, y: 0});

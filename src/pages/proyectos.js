@@ -1,6 +1,6 @@
-import React from "react"
-import SectionTop from "../components/SectionTop"
-import Proyectos from "../components/Proyectos"
+import React from 'react';
+import SectionTop from "@containers/SectionTop"
+import Proyectos from "@components/Proyectos"
 
 // markup
 export default function proyectos() {

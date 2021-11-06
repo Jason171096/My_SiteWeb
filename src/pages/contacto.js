@@ -1,6 +1,6 @@
-import React from "react"
-import Contacto from "../components/Contacto"
-import SectionTop from "../components/SectionTop"
+import React from 'react';
+import Contacto from "@components/Contacto"
+import SectionTop from "@containers/SectionTop"
 
 // markup
 export default function contacto() {

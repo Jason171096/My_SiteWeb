@@ -1,5 +1,5 @@
-import React from "react"
-import vectors from '../images/vectors_gradient.svg';
+import React from 'react';
+import vectors from '@images/vectors_gradient.svg';
 
 const GradientBar = () => {
     return (

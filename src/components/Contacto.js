@@ -1,9 +1,9 @@
-import React from "react";
-import instaIco from "../images/instagram.svg";
-import gitIco from "../images/github.svg";
-import linkeIco from "../images/linkedin.svg";
-import codepenIco from "../images/codepen.svg";
-import messageImg from '../images/message.svg';
+import React from 'react';
+import instaIco from "@icons/instagram.svg";
+import gitIco from "@icons/github.svg";
+import linkeIco from "@icons/linkedin.svg";
+import codepenIco from "@icons/codepen.svg";
+import messageImg from '@icons/message.svg';
 
 const Contacto = () => {
   const styleIco = "w-[25px] mx-1 cursor-pointer tranform hover:scale-110";
@@ -33,7 +33,7 @@ const Contacto = () => {
             <input className={styleInput} placeholder="Nombre" />
             <input className={styleInput} placeholder="E-mail" />
             <textarea className={styleInput} placeholder="Mensaje"></textarea>
-            <a className="bg-yellowMap px-0 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-blue-700">Enviar</a>
+            <a className="bg-redKing px-0 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-600 transition delay-100">Enviar</a>
           </form>
         </div>
       </div>

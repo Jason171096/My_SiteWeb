@@ -1,5 +1,5 @@
 import React from 'react';
-import menuIco from '../images/menu.svg';
+import menuIco from '@icons/menu.svg';
 import { Link } from 'gatsby'
 
 const NavBar = () => {
