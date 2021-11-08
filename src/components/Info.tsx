@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const Info = () => {
   return (
     <div className="mx-10 lg:mx-24">
-      <div className=" text-white">
+      <div className=" text-white pb-3">
         <h1 className="text-xl lg:text-2xl ">Hola soy</h1>
         <h2 className="text-3xl lg:text-4xl font-bold">Jason Martinez</h2>
         <p className="text-lg lg:text-xl">Frontend Developer y Web Designer</p>

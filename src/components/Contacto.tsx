@@ -3,7 +3,7 @@ import instaIco from "@icons/instagram.svg";
 import gitIco from "@icons/github.svg";
 import linkeIco from "@icons/linkedin.svg";
 import codepenIco from "@icons/codepen.svg";
-import messageImg from '@icons/message.svg';
+import messageImg from "@icons/message.svg";
 
 const Contacto = () => {
   const styleIco = "w-[25px] mx-1 cursor-pointer tranform hover:scale-110";

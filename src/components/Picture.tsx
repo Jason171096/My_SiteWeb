@@ -1,5 +1,5 @@
 import React from 'react';
-import Jason from '@images/Jason.png'
+import Jason from "@images/Jason.png";
 
 const Picture = () => {
     return (

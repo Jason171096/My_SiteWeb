@@ -1,0 +1,21 @@
+{
+  "compilerOptions": {
+    "baseUrl": "./src",
+    "paths": {
+      "@components/*" : ["components/*"],
+          "@pages/*": ["pages/*"],
+          "@styles/*": ["styles/*"],
+          "@containers/*": ["containers/*"],
+          "@images/*": ["images/images/*"],
+          "@icons/*": ["images/icons/*"],
+    },
+    "jsx": "react",
+    "module": "system",
+    "noImplicitAny": true,
+    "removeComments": true,
+    "preserveConstEnums": true,
+    "outFile": "../../built/local/tsc.js",
+    "sourceMap": true
+  },
+  "include": ["src/**/*"],
+}

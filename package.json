@@ -14,10 +14,19 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean"
   },
+  "_moduleAliases": {
+    "@components": "dist/components",
+    "@pages": "dist/pages",
+    "@styles": "dist/styles",
+    "@containers": "dist/containers",
+    "@images": "dist/images/images",
+    "@icons": "dist/images/icons"
+  },
   "dependencies": {
     "@fontsource/lora": "^4.5.0",
     "gatsby": "^4.1.0",
     "gatsby-plugin-alias-imports": "^1.0.5",
+    "module-alias": "^2.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
     "tailwindcss-scrollbar": "^0.1.0"

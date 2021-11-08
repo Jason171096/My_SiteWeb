@@ -1,7 +1,7 @@
 import React from 'react';
 import SectionTop from "@containers/SectionTop";
 import SectionBottom from "@containers/SectionBottom";
-import Cursor from "../components/Cursor";
+// import { Cursor } from "../components/Cursor";
 // markup
 const IndexPage = () => {
   return (
