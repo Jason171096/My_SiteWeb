@@ -1,7 +1,6 @@
 import React from 'react';
 import { Link } from 'gatsby'
 
-
 const Info = () => {
   return (
     <div className="mx-10 lg:mx-24">

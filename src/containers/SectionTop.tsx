@@ -1,8 +1,7 @@
-
 import React from 'react';
-import GradientBar from "../components/GradientBar";
-import NavBar from "../components/NavBar";
-import SideNav from "../components/SideNav";
+import GradientBar from "@components/GradientBar";
+import NavBar from "@components/NavBar";
+import SideNav from "@components/SideNav";
 
 const SectionTop = () => {
     return (

@@ -1,6 +1,6 @@
 import React from 'react';
-import Info from "../components/Info";
-import Picture from "../components/Picture";
+import Info from "@components/Info";
+import Picture from "@components/Picture";
 
 const SectionBottom = () => {
   return (
