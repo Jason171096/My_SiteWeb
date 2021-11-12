@@ -20,9 +20,8 @@ module.exports = {
       pink: colors.pink,
       blueKing: '#335185',
       redKing: '#E53A4B',
-      yellowKing: '#F5DB69',
-      blueMap: '#4158D0',
-      violetMap: '#C850C0',
+      blueMap: '#2B86C5'/*'#4158D0'*/,
+      violetMap: '#784BA0'/*'#C850C0'*/,
       yellowMap: '#FFCC70'
     },
     backgroundColor: theme => ({
