@@ -12,80 +12,150 @@ import iconGit from "@icons/icon-git.svg";
 import iconGitHub from "@icons/icon-github.svg";
 
 const SobreMi = () => {
-  const imgSize = "lg:w-40";
-  const textStyle = "text-center text-white mx-3 ";
-  const cardStyle = "m-auto bg-gradient-to-tr from-violetMap to-blueMap rounded-xl p-3 mb-3 opacity-90 shadow-md ";
+  const imgSize = "m-auto";
+  const titleTextStyle = "text-center text-white mx-3 ";
+  const paragraphTextStyle = "text-left text-white ";
+  const cardStyle =
+    "w-[280px] grid grid-cols-2 m-auto bg-gradient-to-tr from-violetMap to-blueMap rounded-xl p-2 mb-3 opacity-90 shadow-md transform hover:scale-105 transition delay-100";
   return (
     <div className="mx-auto mb-10 relative w-full h-full max-w-screen-lg overflow-y scrollbar-w-2 scrollbar-thumb-gray-400">
       <div className="grid grid-cols-1 w-full h-auto lg:h-full">
         <div className="m-auto rounded-xl py-4 bg-gradient-to-tr from-violetMap to-blueMap max-w-xs lg:max-w-sm">
-          <h1 className={textStyle + "text-xl lg:text-3xl"}>
+          <h1 className={titleTextStyle + "text-xl lg:text-3xl"}>
             Mi nombre es Jason, soy desarrollador y diseñador
             <strong> FrontEnd</strong>.
           </h1>
-          <p className={textStyle + "lg:text-xl"}>
+          <p className={titleTextStyle + "lg:text-xl"}>
             Centrandome en el diseño visual, la interfaz / interacción y la
             experiencia del usuario.
           </p>
         </div>
       </div>
       <div>
-        <h1 className={textStyle + "text-3xl p-5"}>Desarrollo</h1>
+        <h1 className={titleTextStyle + "text-3xl p-5"}>Habilidades</h1>
       </div>
-      <div className="grid grid-cols-2 grid-rows-3 w-full h-auto sm:grid-cols-3 sm:grid-rows-2">
+      <div className="grid grid-cols-1 grid-rows-6 w-full h-auto sm:grid-cols-2 sm:grid-rows-3 lg:grid-cols-3 lg:grid-rows-2">
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>HTML5</h2>
           <img className={imgSize} src={iconHTML5} alt="HTML5" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>HTML5</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Lenguaje de marcado hipertexto</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>CSS</h2>
           <img className={imgSize} src={iconCSS} alt="CSS" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>CSS</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Lenguaje de maquetado web</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl mx-0"}>JavaScript</h2>
-          <img className={imgSize} src={iconJavascript} alt="JavaScript" width="100" />
+          <img
+            className={imgSize}
+            src={iconJavascript}
+            alt="JavaScript"
+            width="100"
+          />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>JavaScript</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Lenguaje de programación</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl mx-0"}>TypeScript</h2>
-          <img className={imgSize} src={iconTypescript} alt="TypeScript" width="100" />
+          <img
+            className={imgSize}
+            src={iconTypescript}
+            alt="TypeScript"
+            width="100"
+          />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>TypeScript</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Lenguaje de programación</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>C Sharp</h2>
           <img className={imgSize} src={iconCSharp} alt="C#" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>C Sharp</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Lenguaje de programación</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>React</h2>
           <img className={imgSize} src={iconReact} alt="React" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>React</strong>
+            </h2>
+            <p className={paragraphTextStyle}>
+              Librearia escrita en JavaScript
+            </p>
+          </div>
         </div>
       </div>
-      <div>
-        <h1 className={textStyle + "text-3xl p-5"}>Diseño</h1>
-      </div>
-      <div className="grid grid-cols-2 grid-rows-2 w-full h-auto sm:grid-cols-3 sm:grid-rows-1">
+      <div></div>
+      <div className="grid grid-cols-1 grid-rows-3 w-full h-auto sm:grid-cols-2 sm:grid-rows-2 lg:grid-cols-3 lg:grid-rows-1">
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl mx-0"}>Adobe XD</h2>
-          <img className={imgSize} src={iconAdobeXD} alt="Adobe XD" width="100" />
+          <img
+            className={imgSize}
+            src={iconAdobeXD}
+            alt="Adobe XD"
+            width="100"
+          />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>Adobe XD</strong>
+            </h2>
+            <p className={paragraphTextStyle}>App editor de UI/UX</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>Canvas</h2>
           <img className={imgSize} src={iconCanva} alt="Canvas" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>Canvas</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Editor de diseños simples</p>
+          </div>
         </div>
-        <div className={cardStyle + "col-span-2 sm:col-span-1"}>
-          <h2 className={textStyle + "text-xl"}>Figma</h2>
+        <div className={cardStyle + "sm:col-span-2 lg:col-span-1"}>
           <img className={imgSize} src={iconFigma} alt="Figma" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>Figma</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Web editor de UI/UX</p>
+          </div>
         </div>
       </div>
-      <div>
-        <h1 className={textStyle + "text-3xl p-5"}>Control de versión</h1>
-      </div>
-      <div className="grid grid-cols-2 w-full h-auto">
+      <div></div>
+      <div className="grid grid-cols-1 w-full h-auto sm:grid-cols-2">
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>Git</h2>
           <img className={imgSize} src={iconGit} alt="Git" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>Git</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Control de versión</p>
+          </div>
         </div>
         <div className={cardStyle}>
-          <h2 className={textStyle + "text-xl"}>GitHub</h2>
           <img className={imgSize} src={iconGitHub} alt="GitHub" width="100" />
+          <div>
+            <h2 className={paragraphTextStyle + "text-xl"}>
+              <strong>Github</strong>
+            </h2>
+            <p className={paragraphTextStyle}>Repositorio de proyectos</p>
+          </div>
         </div>
       </div>
     </div>
