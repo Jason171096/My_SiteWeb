@@ -8,6 +8,7 @@ module.exports = {
       resolve: `gatsby-plugin-alias-imports`,
       options: {
         alias: {
+          "@data": "src/data",
           "@components": "src/components",
           "@pages": "src/pages",
           "@styles": "src/styles",

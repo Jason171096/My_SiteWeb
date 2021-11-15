@@ -15,6 +15,7 @@
     "clean": "gatsby clean"
   },
   "_moduleAliases": {
+    "@data": "dist/data",
     "@components": "dist/components",
     "@pages": "dist/pages",
     "@styles": "dist/styles",

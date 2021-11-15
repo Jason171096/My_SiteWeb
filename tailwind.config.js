@@ -28,7 +28,11 @@ module.exports = {
       ...theme('colors'),
       'primary-blue': '#335185',
      }),
-    extend: {},
+    extend: {
+      animation: {
+        
+      },
+    },
   },
   variants: {
     extend: {},

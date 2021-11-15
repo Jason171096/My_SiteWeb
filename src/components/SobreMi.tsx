@@ -16,11 +16,11 @@ const SobreMi = () => {
   const titleTextStyle = "text-center text-white mx-3 ";
   const paragraphTextStyle = "text-left text-white ";
   const cardStyle =
-    "w-[280px] grid grid-cols-2 m-auto bg-gradient-to-tr from-violetMap to-blueMap rounded-xl p-2 mb-3 opacity-90 shadow-md transform hover:scale-105 transition delay-100";
+    "w-[280px] grid grid-cols-2 m-auto bg-gradient-to-tr from-blueMap to-violetMap rounded-xl p-2 mb-3 shadow-md transform hover:scale-105 transition delay-100";
   return (
     <div className="mx-auto mb-10 relative w-full h-full max-w-screen-lg overflow-y scrollbar-w-2 scrollbar-thumb-gray-400">
       <div className="grid grid-cols-1 w-full h-auto lg:h-full">
-        <div className="m-auto rounded-xl py-4 bg-gradient-to-tr from-violetMap to-blueMap max-w-xs lg:max-w-sm">
+        <div className="m-auto rounded-xl py-4 bg-gradient-to-tr from-blueMap to-violetMap max-w-xs lg:max-w-sm">
           <h1 className={titleTextStyle + "text-xl lg:text-3xl"}>
             Mi nombre es Jason, soy desarrollador y diseñador
             <strong> FrontEnd</strong>.
