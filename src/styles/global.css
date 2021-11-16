@@ -1,3 +1,13 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .titleTextStyle {
+        @apply text-center text-white;
+    }
+    .paragraphTextStyle {
+        @apply text-left text-white;
+    }
+    
+}
