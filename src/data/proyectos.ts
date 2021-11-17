@@ -1,6 +1,7 @@
 import BataBitImg from '@images/batabit.png';
 import DollaImg from '@images/dolla.png';
 import HuluImg from '@images/hulu.png';
+import BooksImg from '@images/books.png';
 export const dataProjects: {
     title: string,
     usedTech: string,
@@ -19,9 +20,9 @@ export const dataProjects: {
             urlImage: DollaImg,
         },
         {
-            title: "OpenLibrary",
+            title: "Open Library",
             usedTech: "React, TailwindCSS",
-            urlImage: "",
+            urlImage: BooksImg,
         },
         {
             title: "Hulu",
@@ -29,7 +30,7 @@ export const dataProjects: {
             urlImage: HuluImg,
         },
         {
-            title: "User Register Crud",
+            title: "User Register",
             usedTech: "Python, MongoDB",
             urlImage: "",
         },

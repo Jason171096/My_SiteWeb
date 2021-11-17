@@ -9,5 +9,13 @@
     .paragraphTextStyle {
         @apply text-left text-white;
     }
-    
+    .animationScale {
+        @apply transform hover:scale-105 transition delay-100;
+    }
+    .gradientCard {
+        @apply bg-gradient-to-tr from-blueMap to-violetMap;
+    }
+    .glassCard {
+        @apply bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg;
+    }
 }

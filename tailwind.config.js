@@ -22,7 +22,6 @@ module.exports = {
       redKing: '#E53A4B',
       blueMap: '#2B86C5'/*'#4158D0'*/,
       violetMap: '#784BA0'/*'#C850C0'*/,
-      yellowMap: '#FFCC70'
     },
     backgroundColor: theme => ({
       ...theme('colors'),
