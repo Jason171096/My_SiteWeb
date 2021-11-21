@@ -6,7 +6,7 @@ import GridCard from '@containers/GridCard';
 export default function proyectosMovil() {
   return (
     <Layout>
-      <GridCard/>
+      {/* <GridCard/> */}
     </Layout>
   )
 }

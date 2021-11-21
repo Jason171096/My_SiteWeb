@@ -9,11 +9,11 @@ const Contacto = () => {
   const styleIco = "w-[25px] mx-1 cursor-pointer tranform hover:scale-110";
   const styleInput = "text-black text-lg outline-none resize-none rounded-lg py-3 px-2";
   return (
-    <div className="flex relative mx-auto w-full h-4/6 text-center text-xl text-white justify-center">
+    <div className="flex relative mx-auto w-full h-4/6 text-center text-xl text-white justify-center pb-5">
         <div className="hidden md:block max-w-sm">
             <img src={messageImg}/>
         </div>
-      <div className="flex flex-col w-full h-[500px] bg-gradient-to-tr from-blueMap to-violetMap rounded-lg mx-5 max-w-sm">
+      <div className="flex flex-col w-full h-[475px] rounded-lg mx-5 max-w-sm glassCard">
         <picture className="flex flex-row ml-auto mr-5 justify-items-end my-5">
           <a href="https://www.instagram.com/yeison_mm17" target="_blank">
             <img className={styleIco} src={instaIco} />

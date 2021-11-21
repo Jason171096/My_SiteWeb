@@ -2,6 +2,10 @@ import BataBitImg from '@images/batabit.png';
 import DollaImg from '@images/dolla.png';
 import HuluImg from '@images/hulu.png';
 import BooksImg from '@images/books.png';
+import MessengerImg from '@images/messenger.png';
+import pythonWebImg from '@images/pythonWeb.png';
+import todoImg from '@images/to-do.png';
+import ShoppingCartImg from '@images/shopping-cart.png';
 export const dataProjects: {
     title: string,
     usedTech: string,
@@ -32,21 +36,21 @@ export const dataProjects: {
         {
             title: "User Register",
             usedTech: "Python, MongoDB",
-            urlImage: "",
+            urlImage: pythonWebImg,
         },
         {
             title: "Messenger",
             usedTech: "React, Firebase",
-            urlImage: "",
+            urlImage: MessengerImg,
         },
         {
             title: "To-do",
             usedTech: "React, TailwindCSS",
-            urlImage: "",
+            urlImage: todoImg,
         },
         {
             title: "ShoppingCart",
             usedTech: "React, TailwindCSS",
-            urlImage: "",
+            urlImage: ShoppingCartImg,
         }
     ];

@@ -5,10 +5,10 @@ export default function Card(_props: {title:string, usedTech:string, urlImage:an
     return (
         <div className={cardStyle}>
             <h1 className="titleTextStyle text-xl mt-1">{_props.title}</h1>
-            <div className="mx-2 mb-2">
+            <div className="w-auto h-[180px] flex justify-center mx-2">
                 <img className="rounded-xl" src={_props.urlImage} alt=""/>
             </div>
-            <p className="paragraphTextStyle">{_props.usedTech}</p>
+            <p className="paragraphTextStyle text-center mt-1">{_props.usedTech}</p>
         </div>
     )
 }
