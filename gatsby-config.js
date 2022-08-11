@@ -5,7 +5,10 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: `gatsby-plugin-alias-imports`,
+      resolve: "gatsby-plugin-react-helmet"
+    },
+    {
+      resolve: "gatsby-plugin-alias-imports",
       options: {
         alias: {
           "@data": "src/data",
@@ -22,7 +25,7 @@ module.exports = {
       }
     },
     {
-       resolve: 'gatsby-plugin-postcss',
-    }
+       resolve: "gatsby-plugin-postcss",
+    },
   ],
 };

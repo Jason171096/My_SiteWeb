@@ -19,3 +19,7 @@
         @apply bg-black bg-opacity-30 backdrop-filter backdrop-blur-lg;
     }
 }
+
+body, a, button {
+    cursor: none;
+}

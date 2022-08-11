@@ -9,7 +9,7 @@ const Info = () => {
         <h2 className="text-3xl lg:text-4xl font-bold">Jason Martinez</h2>
         <p className="text-lg lg:text-xl">Frontend Developer y Web Designer</p>
         <br/>
-        <Link to="/sobre-mi" className="bg-redKing px-7 py-3 rounded-md text-xl cursor-pointer shadow-2xl hover:bg-red-600 transition delay-100">Ver más</Link>
+        <Link to="/sobre-mi" className="bg-redKing px-7 py-3 rounded-md text-xl shadow-2xl hover:bg-red-600 transition delay-100">Ver más</Link>
       </div>
     </div>
   );

@@ -5,7 +5,7 @@ import { Link } from "gatsby";
 
 const Proyectos = () => {
   const card =
-    "flex flex-row w-[300px] h-[200px] justify-evenly items-center rounded-lg shadow-2xl cursor-pointer sm:w-[450px] sm:h-[225px] glassCard animationScale ";
+    "flex flex-row w-[300px] h-[200px] justify-evenly items-center rounded-lg shadow-2xl sm:w-[450px] sm:h-[225px] glassCard animationScale ";
   const sizeImg = "w-[150px] sm:w-[200px]";
   return (
     <div className="flex relative flex-col w-full h-[500px] justify-evenly items-center text-center text-white text-3xl sm:text-5xl">

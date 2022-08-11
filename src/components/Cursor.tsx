@@ -1,32 +1,56 @@
 import React from 'react';
 import {useState, useEffect} from "react";
-import cursorIco from "@icons/cursor.svg"; 
+import { gsap } from "gsap";
 
 const Cursor = () => {
-    const [position, setPosition] = useState({x: 0, y: 0});
 
-   useEffect(() => {
-       addEventListeners();
-       return () => removeEventListeners();
-   }, []);
+    const hoverDuration = 0.3;
+    let isHovered = false, intialCursorHeight;
 
-   const addEventListeners = () => {
-       document.addEventListener("mousemove", onMouseMove);
-   };
+    let mouse = {
+        x: -100,
+        y: -100
+    };
 
-   const removeEventListeners = () => {
-       document.removeEventListener("mousemove", onMouseMove);
-   };
 
-   const onMouseMove = (e) => {
-       setPosition({x: e.clientX, y: e.clientY});
-   };
+    const updateCursor = () => {
+        
+        gsap.set(".cursor", {
+            x: mouse.x,
+            y: mouse.y
+        });
 
-   const styleCursor = "";
+        // gsap.to(".cursor--large", {
+        //     duration: 0.15,
+        //     x: mouse.x,
+        //     y: mouse.y
+        // });
+        
+        requestAnimationFrame(updateCursor);
+    }
+
+    const updateCursorPosition = (e:MouseEvent) => {
+        mouse.x = e.pageX;
+        mouse.y = e.pageY;
+    }
+
+    document.body.addEventListener("pointermove", updateCursorPosition);
+    useEffect(() => {
+        updateCursor();
+        
+        
+        //updateCursorPosition();
+    }, [])
+
+    updateCursor()
+    
     return (
-        <div className={styleCursor}>
-            <img src={cursorIco}/>
+        <>
+      <div className="fixed w-6 h-6 z-50">
+	    <div className="fixed w-6 h-6 left-0 top-0 translate-x-2/4 translate-y-2/4 rounded-full pointer-events-none bg-gray-50 select-none cursor"></div>
         </div>
+        </>
+       
     );
 }
 

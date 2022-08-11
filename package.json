@@ -25,11 +25,15 @@
   },
   "dependencies": {
     "@fontsource/lora": "^4.5.0",
-    "gatsby": "^4.1.0",
+    "gatsby": "^4.19.2",
     "gatsby-plugin-alias-imports": "^1.0.5",
+    "gatsby-plugin-react-helmet": "^5.19.0",
+    "gsap": "^3.10.4",
     "module-alias": "^2.2.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-gsap": "^3.2.1",
+    "react-helmet": "^6.1.0",
     "tailwindcss-scrollbar": "^0.1.0"
   },
   "devDependencies": {
