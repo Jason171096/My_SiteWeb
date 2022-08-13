@@ -36,30 +36,25 @@ export const dataProjects: {
             title: "Hulu",
             usedTech: "Next, TailwindCSS",
             urlImage: HuluImg,
-            urlPage: "",
+            urlPage: "https://hulu-cyan.vercel.app/",
         },
         {
-            title: "Volkswagen Financial Services",
-            usedTech: ".NET and C#",
-            urlImage: VolkswagenImg,
-            urlPage: "https://www.vw.com/en/financial-services.html",
-        },
-        {
-            title: "Messenger",
+            title: "Basement Supply",
             usedTech: "React, Firebase",
             urlImage: MessengerImg,
-            urlPage: "",
-        },
-        {
-            title: "To-do",
-            usedTech: "React, TailwindCSS",
-            urlImage: todoImg,
-            urlPage: "",
+            urlPage: "https://basement-challenge-five.vercel.app/",
         },
         {
             title: "ShoppingCart",
             usedTech: "React, TailwindCSS",
             urlImage: ShoppingCartImg,
-            urlPage: "",
-        }
+            urlPage: "https://jason171096-shopping-cart.netlify.app/",
+        },
+        {
+            title: "To-do",
+            usedTech: "React, TailwindCSS",
+            urlImage: todoImg,
+            urlPage: "https://jason171096-todos.netlify.app/",
+        },
+        
     ];
