@@ -1,56 +1,65 @@
-import BataBitImg from '@images/batabit.png';
-import DollaImg from '@images/dolla.png';
+
+import VolkswagenImg from '@images/volkswagen.png';
+import OhhfilesImg from '@images/ohhfiles.png';
+import MedigerImg from '@images/mediger.png';
+
 import HuluImg from '@images/hulu.png';
-import BooksImg from '@images/books.png';
 import MessengerImg from '@images/messenger.png';
-import pythonWebImg from '@images/pythonWeb.png';
+
 import todoImg from '@images/to-do.png';
 import ShoppingCartImg from '@images/shopping-cart.png';
 export const dataProjects: {
     title: string,
     usedTech: string,
     urlImage: any,
-    // colors: string[],
+    urlPage: string,
 }[] = [
         {
-            title: "Batabit",
-            usedTech: "HTML, CSS, JavaScript",
-            urlImage: BataBitImg,
-            // colors: ["#f8f9fa", "#6c757d"]
+            title: "Volkswagen Financial Services",
+            usedTech: ".NET and C#",
+            urlImage: VolkswagenImg,
+            urlPage: "https://www.vw.com/en/financial-services.html",
         },
         {
-            title: "Dolla",
-            usedTech: "React, styled-components",
-            urlImage: DollaImg,
+            title: "Ohhfiles",
+            usedTech: ".NET and C#",
+            urlImage: OhhfilesImg,
+            urlPage: "https://ohhfiles.com/",
         },
         {
-            title: "Open Library",
-            usedTech: "React, TailwindCSS",
-            urlImage: BooksImg,
+            title: "Mediger",
+            usedTech: "React and Javascript",
+            urlImage: MedigerImg,
+            urlPage: "https://mediger.mx/",
         },
         {
             title: "Hulu",
             usedTech: "Next, TailwindCSS",
             urlImage: HuluImg,
+            urlPage: "",
         },
         {
-            title: "User Register",
-            usedTech: "Python, MongoDB",
-            urlImage: pythonWebImg,
+            title: "Volkswagen Financial Services",
+            usedTech: ".NET and C#",
+            urlImage: VolkswagenImg,
+            urlPage: "https://www.vw.com/en/financial-services.html",
         },
         {
             title: "Messenger",
             usedTech: "React, Firebase",
             urlImage: MessengerImg,
+            urlPage: "",
         },
         {
             title: "To-do",
             usedTech: "React, TailwindCSS",
             urlImage: todoImg,
+            urlPage: "",
         },
         {
             title: "ShoppingCart",
             usedTech: "React, TailwindCSS",
             urlImage: ShoppingCartImg,
+            urlPage: "",
         }
     ];

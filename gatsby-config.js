@@ -5,9 +5,6 @@ module.exports = {
   },
   plugins: [
     {
-      resolve: "gatsby-plugin-react-helmet"
-    },
-    {
       resolve: "gatsby-plugin-alias-imports",
       options: {
         alias: {
