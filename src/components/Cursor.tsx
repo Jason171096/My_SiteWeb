@@ -34,7 +34,7 @@ const Cursor = () => {
         mouse.y = e.pageY;
     }
 
-    // document.body.addEventListener("pointermove", updateCursorPosition);
+    document.body.addEventListener("pointermove", updateCursorPosition);
     useEffect(() => {
         updateCursor();
         

@@ -4,10 +4,10 @@ import OhhfilesImg from '@images/ohhfiles.png';
 import MedigerImg from '@images/mediger.png';
 
 import HuluImg from '@images/hulu.png';
-import MessengerImg from '@images/messenger.png';
+import BasementImg from '@images/basement.png';
 
 import todoImg from '@images/to-do.png';
-import ShoppingCartImg from '@images/shopping-cart.png';
+import ShoppingImg from '@images/shopping.png';
 export const dataProjects: {
     title: string,
     usedTech: string,
@@ -41,20 +41,20 @@ export const dataProjects: {
         {
             title: "Basement Supply",
             usedTech: "React, Firebase",
-            urlImage: MessengerImg,
+            urlImage: BasementImg,
             urlPage: "https://basement-challenge-five.vercel.app/",
         },
         {
             title: "ShoppingCart",
             usedTech: "React, TailwindCSS",
-            urlImage: ShoppingCartImg,
+            urlImage: ShoppingImg,
             urlPage: "https://jason171096-shopping-cart.netlify.app/",
         },
-        {
-            title: "To-do",
-            usedTech: "React, TailwindCSS",
-            urlImage: todoImg,
-            urlPage: "https://jason171096-todos.netlify.app/",
-        },
+        // {
+        //     title: "To-do",
+        //     usedTech: "React, TailwindCSS",
+        //     urlImage: todoImg,
+        //     urlPage: "https://jason171096-todos.netlify.app/",
+        // },
         
     ];
