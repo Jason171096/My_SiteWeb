@@ -4,6 +4,8 @@ import { gsap } from "gsap";
 
 const Cursor = () => {
 
+    const module = typeof document !== `undefined`
+
     const hoverDuration = 0.3;
     let isHovered = false, intialCursorHeight;
 
@@ -34,10 +36,13 @@ const Cursor = () => {
         mouse.y = e.pageY;
     }
 
-    document.body.addEventListener("pointermove", updateCursorPosition);
+    if(typeof document !== 'undefined') {
+        document.body.addEventListener("pointermove", updateCursorPosition);
+    }
+   
+
     useEffect(() => {
         updateCursor();
-        
         
         //updateCursorPosition();
     }, [])
