@@ -3,9 +3,7 @@ import {useState, useEffect} from "react";
 import { gsap } from "gsap";
 
 const Cursor = () => {
-
-    const module = typeof document !== `undefined`
-
+    const isDocument = typeof document !== "undefined"
     const hoverDuration = 0.3;
     let isHovered = false, intialCursorHeight;
 
@@ -21,12 +19,13 @@ const Cursor = () => {
             x: mouse.x,
             y: mouse.y
         });
+    
 
-        // gsap.to(".cursor--large", {
-        //     duration: 0.15,
-        //     x: mouse.x,
-        //     y: mouse.y
-        // });
+        gsap.to(".cursor--large", {
+            duration: 0.15,
+            x: mouse.x,
+            y: mouse.y
+        });
         
         requestAnimationFrame(updateCursor);
     }
@@ -36,18 +35,19 @@ const Cursor = () => {
         mouse.y = e.pageY;
     }
 
-    if(typeof document !== 'undefined') {
+    if(isDocument) {
         document.body.addEventListener("pointermove", updateCursorPosition);
+        updateCursor()
     }
    
 
-    useEffect(() => {
-        updateCursor();
+    // useEffect(() => {
+    //     updateCursor();
         
-        //updateCursorPosition();
-    }, [])
+    //     //updateCursorPosition();
+    // }, [])
 
-    updateCursor()
+    
     
     return (
         <>
