@@ -6,7 +6,6 @@ import MedigerImg from '@images/mediger.png';
 import HuluImg from '@images/hulu.png';
 import BasementImg from '@images/basement.png';
 
-import todoImg from '@images/to-do.png';
 import ShoppingImg from '@images/shopping.png';
 export const dataProjects: {
     title: string,
@@ -50,11 +49,5 @@ export const dataProjects: {
             urlImage: ShoppingImg,
             urlPage: "https://jason171096-shopping-cart.netlify.app/",
         },
-        // {
-        //     title: "To-do",
-        //     usedTech: "React, TailwindCSS",
-        //     urlImage: todoImg,
-        //     urlPage: "https://jason171096-todos.netlify.app/",
-        // },
         
     ];
