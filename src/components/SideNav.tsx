@@ -14,7 +14,7 @@ const SideNav = () => {
                 </div>
             </div>
             <ul>
-                <li className=""><Link to="/">Home</Link></li>
+                <li className=""><Link to="/">Inicio</Link></li>
                 <li className=""><Link to="/sobreMi">Sobre mi</Link></li>
                 <li className=""><Link to="/proyectos">Proyectos</Link></li>
                 <li className=""><Link to="/contacto">Contacto</Link></li>

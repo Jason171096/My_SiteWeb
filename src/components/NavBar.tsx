@@ -10,7 +10,7 @@ const NavBar = () => {
     return (
         <div className="relative ml-auto pr-5 py-7 text-white font-bold text-2xl lg:text-3xl">
             <ul className="hidden sm:block m-0 p-0 space-x-10 xl:space-x-24">
-                <li className={styleLi}><Link to="/" >Home</Link></li>
+                <li className={styleLi}><Link to="/" >Inicio</Link></li>
                 <li className={styleLi}><Link to="/sobreMi">Sobre mi</Link></li>
                 <li className={styleLi}><Link to="/proyectos">Proyectos</Link></li>
                 <li className={styleLi}><Link to="/contacto">Contacto</Link></li>
