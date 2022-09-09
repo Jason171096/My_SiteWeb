@@ -22,6 +22,9 @@ module.exports = {
       redKing: '#E53A4B',
       blueMap: '#2B86C5'/*'#4158D0'*/,
       violetMap: '#784BA0'/*'#C850C0'*/,
+      blueGrad: '#4158D0',
+      purpleGrad: '#C850C0',
+      yellowGrad: '#FFCC70'
     },
     backgroundColor: theme => ({
       ...theme('colors'),
@@ -31,8 +34,14 @@ module.exports = {
       boxShadow: {
         '3xl': '0 35px 60px -15px rgba(255, 255, 255, 1)',
       },
+      keyframes: {
+        rotate: {
+          '0%': { transform: 'rotate(0deg)' },
+          '100%': { transform: 'rotate(360deg)' },
+        }
+      },
       animation: {
-        
+        rotate: 'rotate 1s linear infinite'
       },
     },
   },
