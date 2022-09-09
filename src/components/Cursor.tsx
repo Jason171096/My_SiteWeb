@@ -43,7 +43,9 @@ const Cursor = () => {
         <>
       <div className="fixed z-50">
 	    <div className="w-6 h-6 left-0 top-0 flex justify-center items-center pointer-events-none select-none cursor">
-            <span className="w-6 h-6 rounded-full bg-gradient-to-r from-blueGrad via-purpleGrad to-yellowGrad animate-rotate"></span>
+            <div className="w-6 h-6 rounded-full bg-gradient-to-r from-blueGrad via-purpleGrad to-yellowGrad animate-rotate flex justify-center items-center">
+                <div className="w-4 h-4 bg-gray-50 rounded-full"></div>
+            </div>
         </div>
         </div>
         </>

@@ -22,9 +22,9 @@ module.exports = {
       redKing: '#E53A4B',
       blueMap: '#2B86C5'/*'#4158D0'*/,
       violetMap: '#784BA0'/*'#C850C0'*/,
-      blueGrad: '#4158D0',
-      purpleGrad: '#C850C0',
-      yellowGrad: '#FFCC70'
+      blueGrad: '#42abff'/*'#4158D0'*/,
+      purpleGrad: '#ff4f8b'/*'#C850C0'*/,
+      yellowGrad: '#ffeb3b'/*'#FFCC70'*/
     },
     backgroundColor: theme => ({
       ...theme('colors'),
