@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import menuIco from '@icons/menu.svg';
 import { Link } from 'gatsby'
 
 const NavBar = () => {
@@ -18,7 +17,7 @@ const NavBar = () => {
             span1.classList.add("top-[13px]");
 
             span3.classList.add("rotate-45");
-            span3.classList.add("bottom-[15px]");
+            span3.classList.add("top-[14px]");
 
             span2.classList.add("opacity-0");
             sideNav.style.width = "100%"
@@ -28,7 +27,7 @@ const NavBar = () => {
             span1.classList.remove("top-[13px]");
 
             span3.classList.remove("rotate-45");
-            span3.classList.remove("bottom-[15px]");
+            span3.classList.remove("top-[14px]");
 
             span2.classList.remove("opacity-0");
             sideNav.style.width = "0%"

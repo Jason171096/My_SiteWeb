@@ -1,5 +1,4 @@
 import React from 'react';
-import closeIco from '@icons/close.svg';
 import { Link } from 'gatsby'
 
 const SideNav = () => {

@@ -15,8 +15,8 @@ module.exports = {
       white: colors.white,
       gray: colors.trueGray,
       indigo: colors.indigo,
-      red: colors.rose,
-      yellow: colors.amber,
+      red: colors.red,
+      yellow: colors.yellow,
       pink: colors.pink,
       blueKing: '#335185',
       redKing: '#E53A4B',
@@ -28,6 +28,9 @@ module.exports = {
       'primary-blue': '#335185',
      }),
     extend: {
+      boxShadow: {
+        '3xl': '0 35px 60px -15px rgba(255, 255, 255, 1)',
+      },
       animation: {
         
       },
