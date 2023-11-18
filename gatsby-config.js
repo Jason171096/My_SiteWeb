@@ -22,7 +22,13 @@ module.exports = {
       }
     },
     {
-       resolve: "gatsby-plugin-postcss",
+      resolve: "gatsby-transformer-remark",
+      options: {
+        plugins: ["gatsby-remark-lottie"]
+      }
+    },
+    {
+      resolve: "gatsby-plugin-postcss",
     },
   ],
 };
